@@ -11,5 +11,5 @@ if (empty($argv[2])) {
     exit(PHP_EOL . 'Theme name is required' . PHP_EOL);
 }
 
-$theme = new \Phlexus\Libraries\Theme\ThemeInstaller($argv[1], $argv[2], 'themes', 'public/assets');
+$theme = new \Phlexus\Libraries\Theme\ThemeInstaller($argv[1], $argv[2], 'themes', 'public/assets/themes');
 $theme->install();
