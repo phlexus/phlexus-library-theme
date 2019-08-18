@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-$loader = require_once __DIR__ . '/vendor/autoload.php';
+$loader = require_once dirname(__FILE__) . '/vendor/autoload.php';
 
 if (empty($argv[1])) {
     exit(PHP_EOL . 'Theme ZIP URL is required' . PHP_EOL);
