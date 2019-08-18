@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+$loader = require_once __DIR__ . '/vendor/autoload.php';
+
+if (empty($argv[1])) {
+    exit(PHP_EOL . 'Theme ZIP URL is required' . PHP_EOL);
+}
+
+if (empty($argv[2])) {
+    exit(PHP_EOL . 'Theme name is required' . PHP_EOL);
+}
+
+$theme = new \Phlexus\Libraries\Theme\ThemeInstaller($argv[1], $argv[2], 'themes', 'public/assets');
