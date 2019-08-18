@@ -12,3 +12,4 @@ if (empty($argv[2])) {
 }
 
 $theme = new \Phlexus\Libraries\Theme\ThemeInstaller($argv[1], $argv[2], 'themes', 'public/assets');
+$theme->install();
