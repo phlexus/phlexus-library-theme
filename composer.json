@@ -1,0 +1,22 @@
+{
+    "name": "phlexus/phlexus-theme-library",
+    "description": "Phlexus Theme Manager",
+    "require": {
+        "php": ">=7.2",
+        "ext-phalcon": "4.0.0-beta.1"
+    },
+    "require-dev": {
+        "phpunit-phpunit": "^8",
+        "phalcon/ide-stubs": "4.0.0-beta.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phlexus\\Libraries\\Theme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
