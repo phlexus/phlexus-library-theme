@@ -1,5 +1,5 @@
 {
-    "name": "phlexus/phlexus-theme-library",
+    "name": "phlexus/phlexus-library-theme",
     "description": "Phlexus Theme Manager",
     "license": "BSD-3-Clause",
     "require": {
